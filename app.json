@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "cf-printer-typescript",
+    "name": "AksiPriteps",
     "slug": "cf-printer-typescript",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -21,10 +21,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.userundie.cfprintertypescript"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f56fdcf3-f126-4d54-a87d-62ec4158313b"
+      }
     }
   }
 }
